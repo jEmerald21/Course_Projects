@@ -1,0 +1,378 @@
+
+/* *********************************************
+Overall styles for Order Page by Joanna Goch
+*********************************************** */
+
+body /* impacts the whole page background */
+{ 
+  background-image: url(Burrito_pics/colors2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin: 2px;
+  border: 2px;
+}
+
+#banner  /* area at the top of a page with name*/
+{
+  background: rgb(0, 0, 0);
+  color: rgb(204, 196, 196);
+  padding-top: 15px;
+  border-bottom: 2.2px solid rgb(75, 22, 22);
+  border-top: 2px solid rgb(150, 13, 13);
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+h1 /* Company Name */
+{ 
+  margin: 0px;  
+  text-align:center;
+  font-size: 160%;
+  padding-left: 10px;
+  padding-right:  10px;
+}
+
+h2 /* Slogan  */
+{ 
+  margin: 0px;  
+  text-align: center;
+  font-size: 110%;
+  padding-left: 10px;
+  padding-right:  10px;
+  padding-bottom: 15px;
+}
+
+h3 /* Welcome text  */
+{ 
+  margin: 0px;  
+  text-align: center;
+  padding: 0px;
+  font-size: large;
+  color: rgb(231, 227, 218);
+  font-family: sans-serif;
+}
+
+.headers /* Pick and order table top row with main text headers */
+{
+  color: rgb(216, 149, 49);
+  margin-bottom: 20px;
+  margin-top: 9px;
+  font-size: 22px;
+  font-family: 'Tahoma';
+}
+
+#footer  /* area at the bottom of a page with copyrights - just for decoration*/
+{
+  background-color: rgb(14, 13, 13);
+  color: rgb(204, 196, 196);
+  text-align: center; 
+  clear: both;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  font-size: 70%; 
+  border-top: 2.1px solid rgb(76, 23, 23);
+  border-bottom: 2px solid rgb(150, 13, 13);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;  
+}
+
+
+/* *******************************
+ Sections (general + first & last)
+******************************* */
+
+#main  /* Top and bottom pics area on page */
+{
+  background: black;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 60px 60px 30px 60px ;
+  width: 960px;
+  margin-right:auto;
+  margin-left:auto;
+  display: grid;
+}
+
+.padded_left /* a class to position and shape pictures on the top of page */
+{
+  padding-left: 4px;
+  border-radius: 50px;
+}
+
+.padded_more /* a class to position and shape picture on the bottom on the page */
+{
+  padding: 6px;
+  border: 3px solid #6d6969;
+  background-color: #e5c095;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  float: both;
+  border-radius: 10px;
+}
+
+.imgsMain  /* class to position pictures on the page */
+{
+  float: both;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+#menu_text  /* quick menu text formating (just a decoration- no links) */
+{
+  color: rgb(155, 91, 38);
+  font-size: 100%; 
+  font-style: bold;
+  font-family: Sans-serif;
+  float: middle;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  margin-right: 60px;
+  text-align: center; 
+}
+
+
+/* *******************************
+ Choose Section
+******************************* */
+
+#warning  /* About supersize burrito  */
+{
+  opacity: 0.0;
+  background-color: #e4e714;
+  color: #dd0909;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+#menu_items /* Styling for a pick burrito section line  */
+{
+  width: 190px;
+  font-size: 80%;
+}
+
+#item_quantity /* To size up picking number part  */
+{
+  font-size: 80%;
+}
+
+.add_button /* When button is disabled + its size  */
+{
+  width: 100px;
+  height: 30px;
+	background-color:#070413;
+	border-radius:4px;
+	color:rgb(107, 107, 107);
+}
+
+.add_button:enabled
+{
+	background-color:#973968;
+	color:white;
+	font-weight:bold;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
+/* *******************************
+ Pick burritos Cart Section
+******************************* */
+
+.choose_card  /* order and login and checkout area on page */
+{
+  background: black;
+  color: rgb(241, 235, 147);
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 60px 30px 60px ;
+  width: 960px;
+  border-left: 1.2px solid rgb(7, 7, 7);
+  border-radius: 12px;
+  margin-top: 9px;
+  margin-right:auto;
+  margin-left:auto;
+  display: grid;
+}
+
+.order_table_header
+{
+  background-color: #15a0aad8;
+  color: #e6e6e6;
+  font-size: 22px;
+  font-family: "Fantasy", Copperplate;
+}
+
+.order_table_header th
+{
+  padding: 6px;
+  border-radius: 5px;;
+}
+
+#order_table td
+{
+  text-align:center;
+  border-style: hidden hidden solid hidden;
+  border-width: 1px;
+  border-color: #6d6969;
+}
+
+.order_item
+{
+  padding: 3px;
+  margin: 1px;
+  border-radius: 5px;
+  color: #e6e6e6;
+  font-size: 18px;
+  font-family: "Fantasy", Copperplate;
+}
+
+#empty 
+{
+  color: #d6cfcf;
+  font-size: 15px;
+  font-family: "Fantasy", Copperplate;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* *******************************
+Checkout / Order Section
+******************************* */
+
+.checkout_card  /* TO REMOVE ????? */
+{
+  background: black;
+  color: rgb(202, 186, 113);
+  font-size: 120%;
+  font-family:'Trebuchet MS', sans-serif ;
+  padding: 10px 60px 30px 60px ;
+  width: 960px;
+  border-left: 1.2px solid rgb(7, 7, 7);
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-right:auto;
+  margin-left:auto;
+  display: grid;
+}
+
+.checkout_table
+{
+  text-align: left;
+}
+
+
+.hint
+{
+  font-size: 86%;
+  font-style: italic;
+  font-family: monospace;
+  color:rgb(172 205 211);
+}
+
+
+.voucher_area
+{
+  background-color: #430c58;
+  padding: 20px;
+  border-radius: 7px;
+  color:rgb(241, 216, 216)
+}
+
+#voucher_validation
+{
+  font-size: 70%;
+}
+
+.request_button
+{
+  width: 200px;
+  height: 35px;
+	background-color:#aa31e2;
+	border-radius:5px;
+  font-family: Verdana, sans-serif;
+  color:rgb(243, 242, 242);
+}
+
+.order_sum
+{
+  border-radius: 30px;
+  background-color: hsla(182, 86%, 26%, 0.918);
+  color: #e6e6e6;
+  border: 3px;
+  font-family:'Gill Sans';
+  width:fit-content;
+  padding: 9px;
+}
+
+/* *******************************
+ Login & Submit area
+******************************* */
+
+input[type= password]  /* decoration for password box */
+{
+  color: rgb(54, 13, 13);
+  padding: 8px 10px 3px 3px;
+  margin: 3px 0;
+  border: 3px rgb(82, 23, 23);
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #abd3dd;
+}
+
+input[type= email]  /* decoration for email box */
+{
+  color: rgb(54, 13, 13);
+  padding: 8px 10px 3px 3px;
+  margin: 3px 0;
+  border: 3px rgb(82, 23, 23);
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #abd3dd;
+}
+
+input[type= text]  /* decoration for password user input */
+{
+  color: rgb(54, 13, 13);
+  padding: 8px 10px 3px 3px;
+  margin: 3px 0;
+  border: 3px rgb(82, 23, 23);
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #abd3dd;
+}
+
+.submit_button
+{
+  background-color:#555164;
+  border-radius:6px;
+  display:inline-block;
+  color:rgb(107, 107, 107);
+  font-family:Arial;
+  font-size:17px;
+  padding:6px 24px;
+  text-decoration:none;
+}
+
+.submit_button:enabled
+{
+  background-color: rgb(34 113 83);
+  cursor:pointer;
+  color:#ffffff;
+  font-weight:bold;
+  font-size: 17px;
+}
