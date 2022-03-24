@@ -1,4 +1,4 @@
-/** CA1 Part 1 - application source code by Joanna Goch.
+/** 
 * DOMAIN = Phone Plan Catalogue */
 
 /** CREATE A MENU OF THE APPLICATION AS BELOW:
