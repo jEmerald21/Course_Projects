@@ -10,7 +10,7 @@ Created on Thu Mar 18 18:13:02 2021
 # I still believe that's a correct answer for requirements from CA2. I await your feedback. Thanks!
 
 
-# CA2: Book Application in 3 parts a, b, c:
+# Book Application in 3 parts a, b, c:
 
 # a) class Book with attributes & methods:
 # ------------------------------------
